@@ -32,6 +32,9 @@
             <a href="crudProductos.jsp">
             <menuitem >Registrar Jugador</menuitem>
             </a> | 
+            <a href="registrarEquipo.jsp">
+            <menuitem >Registrar Equipo</menuitem>
+            </a> | 
             
         </menu>
         <h1>Registro de Usuarios</h1>

@@ -1,9 +1,8 @@
 <%-- 
-    Document   : crudProductos
-    Created on : 03-07-2020, 21:18:40
-    Author     : Edgard
+    Document   : registrarEquipo
+    Created on : 14-jul-2020, 18:57:14
+    Author     : Jota
 --%>
-
 <%@page import="dao.ProductoDAO"%>
 <%@page import="modelos.Producto"%>
 <%@page import="dao.EstadoDAO"%>
@@ -14,11 +13,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Crud Productos</title>
+        <title>Registrar Equipo</title>
     </head>
     <body>
     <center>
-        <h1>Registro Jugadores</h1>
+        <h1>Registro Equipo</h1>
         <menu >
             <a href="intranet.jsp">
             <menuitem >Inicio</menuitem>
@@ -35,26 +34,26 @@
             <table>
                 
                 <tr>
-                    <td>Nombre</td>
+                    <td>Código</td>
                     <td><input type="text" name="nombre"/></td>
                 </tr>
                 <tr>
-                    <td>Apellido</td>
+                    <td>Nombre</td>
                     <td><input type="text" name="apellido"/></textarea></td>
                 </tr>
                 <tr>
-                    <td>Edad</td>
+                    <td>Procedencia</td>
                     <td><input type="text" name="edad"/></td>
                 </tr><tr>
-                    <td>posicion</td>
+                    <td>Estadio</td>
                     <td><input type="text" name="posicion"/></td>
                 </tr>
                 <tr>
-                    <td>Sueldo</td>
+                    <td>division</td>
                     <td><input type="text" name="sueldo"/></td>
                 </tr>
                 <tr>
-                    <td>Equipo Actual</td>
+                    <td>Jugadores</td>
                     <td><input type="text" name="posicion"/></td>
                 </tr>
                 
